@@ -26,14 +26,14 @@ sudo raspi-config
     │                                                          │
     └──────────────────────────────────────────────────────────┘
   
-Option 1: Select poweroff GPIO  
-Option 2: Enable Poweroff function  
-Option 3: Disable Poweroff function  
-Option 4: Exit  
+    Option 1: Select poweroff GPIO  
+    Option 2: Enable Poweroff function  
+    Option 3: Disable Poweroff function  
+    Option 4: Exit  
   
 ## View battery Info  
     wget https://github.com/geekworm-com/UPS2/raw/master/viewinfo.py  
-    edit viewinfo.py and modify battery capacity  
+    #edit viewinfo.py and modify battery capacity  
     nano viewinfo.py  
     #.Change 2500 to your battery capacity (mAh)  
     MY_BATTERY_CAP = 2500  
